@@ -4,3 +4,7 @@ EthervoxAI Habit Tracker — Build Progress Log
 [Bootstrap] Phase 0 complete — all config files generated, dependencies installed, pushed to GitHub
 [Phase 1A] Feature 2 (habit-store): complete — PR #1 https://github.com/mkostersitz/ToDo-List/pull/1
 [Phase 1A] Feature 3 (streak-engine): complete — PR #2 https://github.com/mkostersitz/ToDo-List/pull/2
+[Phase 1A] Feature 2 (habit-store): complete — PR#1 https://github.com/mkostersitz/ToDo-List/pull/1
+[Phase 1A] Feature 3 (streak-engine): complete — PR#2 https://github.com/mkostersitz/ToDo-List/pull/2
+[Phase 1B] Navigation scaffold: complete — PR#3 https://github.com/mkostersitz/ToDo-List/pull/3
+[Phase 1B] Entitlements system: complete — PR#4 https://github.com/mkostersitz/ToDo-List/pull/4

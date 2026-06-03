@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "EthervoxAI Habits",
+    "slug": "ethervox-habits",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "bundleIdentifier": "ai.ethervox.habittracker",
+      "supportsTablet": false,
+      "infoPlist": {
+        "NSMicrophoneUsageDescription": "EthervoxAI uses your microphone for voice check-ins.",
+        "NSSpeechRecognitionUsageDescription": "On-device speech recognition for habit logging.",
+        "NSMotionUsageDescription": "Step count used to auto-complete fitness habits.",
+        "UIBackgroundModes": ["audio"]
+      }
+    },
+    "android": {
+      "package": "ai.ethervox.habittracker",
+      "adaptiveIcon": {
+        "backgroundColor": "#ffffff"
+      },
+      "permissions": [
+        "android.permission.RECORD_AUDIO",
+        "android.permission.VIBRATE"
+      ]
+    },
+    "plugins": [
+      "expo-router",
+      "expo-sqlite",
+      ["expo-speech", {}],
+      ["expo-notifications", {
+        "sounds": []
+      }]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}

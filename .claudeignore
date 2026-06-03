@@ -1,0 +1,8 @@
+node_modules/
+.expo/
+dist/
+ios/
+android/
+dev-data/
+assets/models/*.onnx
+*.pb

@@ -1,0 +1,3 @@
+EthervoxAI Habit Tracker — Build Progress Log
+==============================================
+[Bootstrap] Phase 0 started

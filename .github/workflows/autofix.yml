@@ -1,0 +1,19 @@
+name: Autofix
+on:
+  check_suite:
+    types: [completed]
+jobs:
+  autofix:
+    if: github.event.check_suite.conclusion == 'failure'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: oven-sh/setup-bun@v2
+      - run: bun install
+      - name: Claude Code autofix
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          claude -p "CI failed. Read the test output. Fix all TypeScript errors and failing tests. Commit fixes with: fix(ci): auto-repair failing checks. Do not change feature logic." \
+            --output-format json >> autofix-log.json
+      - run: git push

@@ -1,0 +1,14 @@
+name: CI
+on: [pull_request]
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+      - run: bun install
+      - run: bunx tsc --noEmit
+      - run: bunx expo lint
+      - run: bun test --coverage

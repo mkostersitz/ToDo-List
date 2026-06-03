@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "name": "voice-checkin-parser",
+    "displayName": "Voice Check-in Parser",
+    "directory": "src/features/voice/",
+    "status": "pending",
+    "coverageTarget": 90,
+    "dependencies": [],
+    "branch": "feature/voice-checkin-parser"
+  },
+  {
+    "id": 2,
+    "name": "habit-store",
+    "displayName": "Habit Store (CRUD + SQLite)",
+    "directory": "src/features/habits/",
+    "status": "pending",
+    "coverageTarget": 95,
+    "dependencies": [],
+    "branch": "feature/habit-store"
+  },
+  {
+    "id": 3,
+    "name": "streak-engine",
+    "displayName": "Streak Engine",
+    "directory": "src/features/streaks/",
+    "status": "pending",
+    "coverageTarget": 90,
+    "dependencies": [2],
+    "branch": "feature/streak-engine"
+  },
+  {
+    "id": 4,
+    "name": "pattern-coaching-engine",
+    "displayName": "Pattern Coaching Engine",
+    "directory": "src/features/coaching/",
+    "status": "pending",
+    "coverageTarget": 85,
+    "dependencies": [2, 3],
+    "branch": "feature/pattern-coaching-engine"
+  },
+  {
+    "id": 5,
+    "name": "weekly-debrief-generator",
+    "displayName": "Weekly Debrief Generator",
+    "directory": "src/features/debrief/",
+    "status": "pending",
+    "coverageTarget": 80,
+    "dependencies": [2, 3, 4],
+    "branch": "feature/weekly-debrief-generator"
+  },
+  {
+    "id": 6,
+    "name": "ambient-reminders",
+    "displayName": "Ambient Reminders",
+    "directory": "src/features/reminders/",
+    "status": "pending",
+    "coverageTarget": 80,
+    "dependencies": [2, 3],
+    "branch": "feature/ambient-reminders"
+  },
+  {
+    "id": 7,
+    "name": "habit-management-ui",
+    "displayName": "Habit Management UI",
+    "directory": "src/screens/",
+    "status": "pending",
+    "coverageTarget": 80,
+    "dependencies": [2, 3, 1],
+    "branch": "feature/habit-management-ui"
+  },
+  {
+    "id": 8,
+    "name": "shared-habits-pro",
+    "displayName": "Shared Habits (Pro Tier)",
+    "directory": "src/features/shared/",
+    "status": "pending",
+    "coverageTarget": 80,
+    "dependencies": [2, 7],
+    "branch": "feature/shared-habits-pro"
+  }
+]

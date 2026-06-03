@@ -1,0 +1,18 @@
+{
+  "hooks": {
+    "PreToolUse": {
+      "command": "bunx tsc --noEmit 2>&1 | tail -5",
+      "description": "TypeScript check before every file edit",
+      "on_failure": "warn_and_continue"
+    },
+    "PostToolUse": {
+      "command": "echo 'File saved'",
+      "description": "Post-save marker",
+      "on_failure": "warn_and_continue"
+    },
+    "Stop": {
+      "command": "echo \"Session ended at $(date)\" >> claude-progress.txt",
+      "description": "Append session end marker to progress log"
+    }
+  }
+}

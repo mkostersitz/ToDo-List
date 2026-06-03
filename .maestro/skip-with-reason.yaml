@@ -1,0 +1,5 @@
+appId: ai.ethervox.habittracker
+---
+- launchApp
+- assertVisible: "EthervoxAI Habits"
+# Full flow implemented in feature/voice-checkin-parser

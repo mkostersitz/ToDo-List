@@ -1,0 +1,19 @@
+{
+  "mcpServers": {
+    "playwright": {
+      "command": "npx",
+      "args": ["@playwright/mcp@latest"],
+      "description": "Browser automation for Expo web preview verification"
+    },
+    "sqlite": {
+      "command": "npx",
+      "args": ["mcp-server-sqlite", "--db-path", "./dev-data/ethervox.db"],
+      "description": "Direct SQLite inspection for habit store validation"
+    },
+    "fetch": {
+      "command": "npx",
+      "args": ["@modelcontextprotocol/server-fetch"],
+      "description": "Documentation fetching during implementation"
+    }
+  }
+}

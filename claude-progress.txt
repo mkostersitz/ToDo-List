@@ -8,3 +8,6 @@ EthervoxAI Habit Tracker — Build Progress Log
 [Phase 1A] Feature 3 (streak-engine): complete — PR#2 https://github.com/mkostersitz/ToDo-List/pull/2
 [Phase 1B] Navigation scaffold: complete — PR#3 https://github.com/mkostersitz/ToDo-List/pull/3
 [Phase 1B] Entitlements system: complete — PR#4 https://github.com/mkostersitz/ToDo-List/pull/4
+[Phase 2A] Feature 1 (voice-checkin-parser): complete — PR created
+[Phase 2B] Feature 4 (pattern-coaching-engine): complete — PR created
+[Phase 3A] Feature 5 (weekly-debrief): complete — PR created

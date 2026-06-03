@@ -14,7 +14,7 @@
     "name": "habit-store",
     "displayName": "Habit Store (CRUD + SQLite)",
     "directory": "src/features/habits/",
-    "status": "pending",
+    "status": "complete",
     "coverageTarget": 95,
     "dependencies": [],
     "branch": "feature/habit-store"
@@ -24,9 +24,11 @@
     "name": "streak-engine",
     "displayName": "Streak Engine",
     "directory": "src/features/streaks/",
-    "status": "pending",
+    "status": "complete",
     "coverageTarget": 90,
-    "dependencies": [2],
+    "dependencies": [
+      2
+    ],
     "branch": "feature/streak-engine"
   },
   {
@@ -36,7 +38,10 @@
     "directory": "src/features/coaching/",
     "status": "pending",
     "coverageTarget": 85,
-    "dependencies": [2, 3],
+    "dependencies": [
+      2,
+      3
+    ],
     "branch": "feature/pattern-coaching-engine"
   },
   {
@@ -46,7 +51,11 @@
     "directory": "src/features/debrief/",
     "status": "pending",
     "coverageTarget": 80,
-    "dependencies": [2, 3, 4],
+    "dependencies": [
+      2,
+      3,
+      4
+    ],
     "branch": "feature/weekly-debrief-generator"
   },
   {
@@ -56,7 +65,10 @@
     "directory": "src/features/reminders/",
     "status": "pending",
     "coverageTarget": 80,
-    "dependencies": [2, 3],
+    "dependencies": [
+      2,
+      3
+    ],
     "branch": "feature/ambient-reminders"
   },
   {
@@ -66,7 +78,11 @@
     "directory": "src/screens/",
     "status": "pending",
     "coverageTarget": 80,
-    "dependencies": [2, 3, 1],
+    "dependencies": [
+      2,
+      3,
+      1
+    ],
     "branch": "feature/habit-management-ui"
   },
   {
@@ -76,7 +92,10 @@
     "directory": "src/features/shared/",
     "status": "pending",
     "coverageTarget": 80,
-    "dependencies": [2, 7],
+    "dependencies": [
+      2,
+      7
+    ],
     "branch": "feature/shared-habits-pro"
   }
 ]

@@ -6,7 +6,7 @@ export function checkMilestone(newStreak: number): number | null {
 }
 
 export function getMilestoneMessage(milestone: number, habitName: string): string {
-  const messages: Record<number, string> = {
+  const m: Record<number, string> = {
     3: `3 days of ${habitName} — a great start!`,
     7: `One full week of ${habitName}. Keep going!`,
     14: `Two weeks strong on ${habitName}!`,
@@ -17,5 +17,5 @@ export function getMilestoneMessage(milestone: number, habitName: string): strin
     180: `Half a year of ${habitName}. Legendary.`,
     365: `365 days of ${habitName}. A full year!`,
   };
-  return messages[milestone] ?? `${milestone}-day streak on ${habitName}!`;
+  return m[milestone] ?? `${milestone}-day streak on ${habitName}!`;
 }

@@ -4,7 +4,7 @@
     "name": "voice-checkin-parser",
     "displayName": "Voice Check-in Parser",
     "directory": "src/features/voice/",
-    "status": "pending",
+    "status": "complete",
     "coverageTarget": 90,
     "dependencies": [],
     "branch": "feature/voice-checkin-parser"
@@ -36,7 +36,7 @@
     "name": "pattern-coaching-engine",
     "displayName": "Pattern Coaching Engine",
     "directory": "src/features/coaching/",
-    "status": "pending",
+    "status": "complete",
     "coverageTarget": 85,
     "dependencies": [
       2,
@@ -49,7 +49,7 @@
     "name": "weekly-debrief-generator",
     "displayName": "Weekly Debrief Generator",
     "directory": "src/features/debrief/",
-    "status": "pending",
+    "status": "complete",
     "coverageTarget": 80,
     "dependencies": [
       2,
